@@ -1,0 +1,76 @@
+/*
+Font Face
+*/
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url(../font/Roboto-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Roboto Light";
+    src: url(../font/Roboto-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(../font/Roboto-Regular.ttf) format('truetype');
+}
+
+/*
+Base Element Styles
+*/
+
+h3,
+p,
+a {
+    font-family: "Roboto Regular", sans-serif;
+}
+
+h1 {
+    font-family: "Roboto Bold", sans-serif;
+    font-weight: bold;
+    font-size: 3.3rem;
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 1px;
+    
+}
+
+p {
+    font-size: 1.1em;
+    text-align: center;
+    
+}
+
+a {
+   text-align: center;
+   text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*
+Navigation Styles
+*/
+a:link {
+    color: #000;
+}
+
+a:hover {
+    color: lightblue;
+}
+
