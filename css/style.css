@@ -21,6 +21,14 @@ Font Face
 Base Element Styles
 */
 
+body {
+    font-size: 1em;
+}
+
+header {
+    margin: 0 auto;
+}
+
 h3,
 p,
 a {
@@ -30,37 +38,53 @@ a {
 h1 {
     font-family: "Roboto Bold", sans-serif;
     font-weight: bold;
-    font-size: 3.3rem;
+    font-size: 2.5em;
     text-align: center;
+    margin-bottom: 80px;
 }
 
 h2 {
+    font-family: "Roboto Bold", sans-serif;
     font-weight: bold;
-    font-size: 1.2rem;
     text-align: center;
+    margin-bottom: 80px;
+    font-size: 1.5em;
 }
 
 h3 {
     font-size: 2rem;
     text-align: center;
     font-weight: 300;
-    letter-spacing: 1px;
+    letter-spacing: -1px;
+    margin-bottom: 5px;
     
 }
 
 p {
     font-size: 1.1em;
     text-align: center;
-    
 }
 
 a {
    text-align: center;
    text-decoration: none;
+   font-family: "Roboto Bold", sans-serif;
+   font-size: 1.5em;
 }
 
 ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 2.18em 0;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 /*
@@ -74,3 +98,109 @@ a:hover {
     color: lightblue;
 }
 
+/*
+Layout Style
+*/
+
+.main-nav{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.main-header {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-header p {
+    font-size: 1.5em;
+    color: darkgray;
+    line-height: 40px;
+    margin-bottom: 120px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.portfolio p {
+    font-size: 1.4em;
+    line-height: 30px;
+    margin-bottom: 80px;
+}
+
+.contact {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.contact h2{
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+
+.contact p {
+    font-size: 1.4em;
+    color: darkgray;
+    line-height: 40px;
+}
+
+.contacts {
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.contact-details {
+    float: left;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.contact-information {
+    float: right;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.main-footer {
+    width: 90%;
+    margin: 0 auto;
+    border-top: solid 1px lightgray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-footer p {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.main-footer a {
+    font-size: 1.1em;
+}
+
+.footer-name {
+    float: left;
+    padding-top: 20px;
+}
+
+.footer-link {
+    float: right;
+    padding-top: 20px
+}
+
+/*
+Clearfix
+*/
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

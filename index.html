@@ -18,91 +18,95 @@
             </ul>
         </nav>
     </header>
-    <section class="main-header">
+    <div class="main-header">
         <img src="images/responsive-layout-profile.png" alt="picture of myself">
         <p class="main-paragraph">
             Hi! I'm an aspiring front-end developer who loves responsive design and css. I recently finish a degree in 
             front-end web development at Treehouse and am excited to put all my skills to use!
         </p>
-    </section>
-    <main>
-        <section class="portfolio" id="portfolio">
-            <h2>PORTFOLIO</h2>
-            <section class="marketing-page">
-                <img src="images/portfolio-1.png" alt="marketing page">
-                <article>
-                    <h3>Marketing Page</h3>
-                    <p>
-                        This project shows the front page of a marketing website meant for a specific
-                        business I'm interested in
-                    </p>
-                </article>
+    </div>
+    <div class="container">
+        <main> 
+            <section class="portfolio" id="portfolio">
+                <h2>PORTFOLIO</h2>
+                <div class="marketing-page">
+                    <img src="images/portfolio-1.png" alt="marketing page">
+                    <article>
+                        <h3>Marketing Page</h3>
+                        <p>
+                            This project shows the front page of a marketing website meant for a specific
+                            business I'm interested in
+                        </p>
+                    </article>
+                </div>
+                <div class="search-page">
+                    <img src="images/portfolio-2.png" alt="search page">
+                    <section>
+                        <h3>Search Page</h3>
+                        <p>
+                            This project searches through a specific database to find information that the user
+                            is trying to look up
+                        </p>
+                    </section>
+                </div>
+                <div class="travel-app">
+                    <img src="images/portfolio-3.png" alt="Travel App">
+                    <section>
+                        <h3>Travel App</h3>
+                        <p>
+                            This project compares travel times based on different transportation methods and tells you
+                            the best one.
+                        </p>
+                    </section>
+                </div>
+                <div class="map-favorite">
+                    <img src="images/portfolio-4.png" alt=" Map of Favorite Spots">
+                    <section>
+                        <h3>Map of Favorite Spots</h3>
+                        <p>
+                            This project uses mapping apis to plot points for my favorite spots in the city for a 
+                            do-it-yourself walking tour.
+                        </p>
+                    </section>
+                </div>
+                <div class="photo-gallery">
+                    <img src="images/portfolio-5.png"  alt="photo gallery">
+                    <section>
+                        <h3>Photo Gallery</h3>
+                        <p>
+                            This project shows pictures from a recent trip to the viewer and allows them to easily
+                            navigate through photos.
+                        </p>
+                    </section> 
+                </div>
+                <div class="calculator">
+                    <img src="images/portfolio-6.png" alt="calculator">
+                    <section>
+                        <h3>Calculator</h3>
+                        <p>
+                            Someone can enter in the numbers they want, and press the big blue buttom and get the result
+                        </p>
+                    </section>
+                </div>
             </section>
-            <section class="search-page">
-                <img src="images/portfolio-2.png" alt="search page">
-                <article>
-                    <h3>Search Page</h3>
-                    <p>
-                        This project searches through a specific database to find information that the user
-                        is trying to look up
-                    </p>
-                </article>
+            <section class="contact clearfix" id="contact">
+                <h2>CONTACT</h2>
+                <p>
+                    If you're interested in chatting or want more information about what I've been working on, I'd love
+                    to hear from you!
+                </p>
+                <div class="contacts">
+                    <p class="contact-details">Phone</p>
+                    <p class="contact-information"> +1(111)555-1234</p>
+                    <p class="contact-details">Email</p>
+                    <p class="contact-information">email@yoursite.com</p>
+                </div>
             </section>
-            <section class="travel-app">
-                <img src="images/portfolio-3.png" alt="Travel App">
-                <article>
-                    <h3>Travel App</h3>
-                    <p>
-                        This project compares travel times based on different transportation methods and tells you
-                        the best one.
-                    </p>
-                </article>
-            </section>
-            <section class="map-favorite">
-                <img src="images/portfolio-4.png" alt=" Map of Favorite Spots">
-                <article>
-                    <h3>Map of Favorite Spots</h3>
-                    <p>
-                        This project uses mapping apis to plot points for my favorite spots in the city for a 
-                        do-it-yourself walking tour.
-                    </p>
-                </article>
-            </section>
-            <section class="photo-gallery">
-                <img src="images/portfolio-5.png"  alt="photo gallery">
-                <article>
-                    <h3>Photo Gallery</h3>
-                    <p>
-                        This project shows pictures from a recent trip to the viewer and allows them to easily
-                        navigate through photos.
-                    </p>
-                </article> 
-            </section>
-            <section class="calculator">
-                <img src="images/portfolio-6.png" alt="calculator">
-                <article>
-                    <h3>Calculator</h3>
-                    <p>
-                        Someone can enter in the numbers they want, and press the big blue buttom and get the result
-                    </p>
-                </article>
-            </section>
-        </section>
-        <section class="contact" id="contact">
-            <h2>Contact</h2>
-            <p>
-                If you're interested in chatting or want more information about what I've been working on, I'd love
-                to hear from you!
-            </p>
-            <p>Phone</p>
-            <p> +1(111)555-1234</p>
-            <p>Email</p>
-            <p>email@yoursite.com</p>
-        </section>
-    </main>
-    <footer class="main-footer">
-        <p>Anthony Prabowo</p>
-        <p><a href="#top">BACK TO TOP</a></p>
+        </main>
+    </div>
+    <footer class="main-footer clearfix">
+        <p class="footer-name">Anthony Prabowo</p>
+        <p class="footer-link"><a href="#top">BACK TO TOP</a></p>
     </footer>
 </body>
 </html>
