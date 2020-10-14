@@ -338,7 +338,7 @@ Media Queries
     }
 }
 
-@media (min-width: 1036px) {
+@media (min-width: 1024px) {
     .container {
         width: 90%;
         
