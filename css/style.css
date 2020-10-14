@@ -21,6 +21,10 @@ Font Face
 Base Element Styles
 */
 
+* {
+    text-align: center;
+}
+
 body {
     font-size: 1em;
 }
@@ -108,9 +112,10 @@ Layout Style
 }
 
 .main-header {
-    width: 90%;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
     text-align: center;
+    
 }
 
 .main-header p {
@@ -123,7 +128,6 @@ Layout Style
 .container {
     width: 90%;
     margin: 0 auto;
-    text-align: center;
 }
 
 .portfolio p {
@@ -195,6 +199,10 @@ Layout Style
     padding-top: 20px
 }
 
+.footer-nav {
+    display: none;
+}
+
 /*
 Clearfix
 */
@@ -204,3 +212,214 @@ Clearfix
     clear: both;
     display: table;
   }
+
+/*
+Media Queries
+*/
+@media (min-width: 768px) {
+
+    .title {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .main-nav li {
+        display: inline-block;
+        margin: 20px;
+
+    }
+
+    .main-header {
+       margin-bottom: 80px; 
+    }
+
+    .main-image {
+        float: right;
+        width: 49%;
+        max-width: 390px;
+    }
+
+    .main-paragraph {
+        float: left;
+        width: 49%;
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .portfolio h3 {
+        font-size: 1.3em;
+        font-weight: bold;
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .portfolio p {
+        font-size: 1.1em;
+        max-height: 50%;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 0;
+        margin-bottom: 20%
+    }
+
+
+    .marketing-page {
+        float: left;
+        width: 48%;
+        display: block;
+        max-height: 459px;
+        margin-bottom: 5%;
+    }
+
+    .search-page {
+        float: right;
+        width: 48%;
+        display: block;
+        max-height: 459px;
+        margin-bottom: 5%;
+    }
+
+    .travel-app {
+        float: left;
+        width: 48%;
+        display: block;
+        max-height: 459px;
+        margin-bottom: 5%;
+    }
+
+    .map-favorite {
+        float: right;
+        width: 48%;
+        display: block;
+        max-height: 459px;
+        margin-bottom: 5%;
+    }
+
+    .photo-gallery {
+        float: left;
+        width: 48%;
+        display: block;
+        max-height: 459px;
+    }
+
+    .calculator {
+        float: right;
+        width: 48%;
+        display: block;
+        max-height: 459px;
+    }
+
+    .contact {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .main-footer p {
+        font-size: 1.2em;
+    }
+
+    .footer-name {
+        padding: 0;
+    }
+    
+    .footer-link {
+        display: none;
+    }
+
+    .footer-nav {
+        display: block;
+        float: right;
+    }
+
+    .footer-nav li {
+        float: left;
+        margin: 20px;
+        font-size: 0.9em;
+    }
+}
+
+@media (min-width: 1036px) {
+    .container {
+        width: 90%;
+        
+    }
+
+    .title {
+        float: left;
+        width: 40%;
+        text-align: left;
+        margin-top: 2%;
+        margin-bottom: 80px;
+    }
+    
+    .main-nav {
+        margin: 0 auto;
+        margin-top: 2%;
+    }
+    
+    .main-nav ul{
+        text-align: right;
+    }
+    
+    .main-nav li {
+        margin: 0;
+        margin-top: 3%;
+        padding: 0 20px;
+    }
+
+    .main-image {
+        max-width: 490px;
+        width: 40%;
+    }
+
+    .main-paragraph {
+        width:59%;
+    }
+
+    .marketing-page {
+        float: left;
+        width: 31%;
+        margin-right: 1%;
+        margin-bottom: 10%;
+        max-height: 459px;
+    }
+
+    .search-page {
+        float: left;
+        width: 31%;
+        margin-left: 2%;
+        margin-bottom: 10%;
+        max-height: 459px;
+    }
+    .travel-app {
+        float: right;
+        width: 31%;
+        margin-left: 1%;
+        margin-bottom: 10%;
+        max-height: 459px;        
+    }
+
+    .map-favorite {
+        float: left;
+        width: 31%;
+        margin-right: 1%;
+        margin-left: 0;
+        max-height: 459px;
+    }
+
+    .photo-gallery {
+        float: left;
+        width: 31%;
+        margin-left: 2%;
+        max-height: 459px;        
+    }
+
+    .calculator {
+        float: right;
+        width: 31%;
+        margin-left: 1%;
+        margin-right: 0;
+        max-height: 459px;        
+    }
+    
+}
