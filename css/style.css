@@ -136,13 +136,27 @@ Layout Style
     margin-bottom: 80px;
 }
 
+.skills {
+    margin-top: 10%;
+    border-bottom: dashed 2px lightgray;
+}
+
+.skills h2 {
+    margin-bottom: 20px;
+}
+
+.skills img {
+    max-width: 50%;
+    margin-bottom: 5%;
+}
+
 .contact {
     text-align: center;
     margin-bottom: 80px;
 }
 
 .contact h2{
-    margin-top: 120px;
+    margin-top: 5%;
     margin-bottom: 40px;
 }
 
@@ -420,6 +434,16 @@ Media Queries
         margin-left: 1%;
         margin-right: 0;
         max-height: 459px;        
+    }
+
+    .skills img {
+        max-width: 500px;
+    }
+
+    .contact-paragraph {
+        margin: 0 auto;
+        width: 80%;
+        margin-bottom: 5%;
     }
     
 }
