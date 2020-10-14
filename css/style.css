@@ -345,8 +345,9 @@ Media Queries
     }
 
     .footer-nav {
-        display: block;
         float: right;
+        display: block;
+        max-width:480px;
     }
 
     .footer-nav li {
